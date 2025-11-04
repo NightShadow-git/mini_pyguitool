@@ -46,15 +46,9 @@ python -c "import tkinter; print('tkinter 可用')"
 
 ### 2. 安装 curlconverter
 
-**全局安装：**
-```bash
-npm install -g curlconverter --registry https://mirrors.tuna.tsinghua.edu.cn/
-```
-
-**局部安装（推荐）：**
 ```bash
 cd src
-npm install curlconverter --registry https://mirrors.tuna.tsinghua.edu.cn/
+npm install curlconverter
 ```
 
 ## 使用方法
