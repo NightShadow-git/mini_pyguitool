@@ -44,13 +44,6 @@
 python -c "import tkinter; print('tkinter 可用')"
 ```
 
-### 2. 安装 curlconverter
-
-```bash
-cd src
-npm install curlconverter
-```
-
 ## 使用方法
 
 ### 启动应用
@@ -93,7 +86,7 @@ python main.py
 ├── README.md           # 项目说明
 └── src/                # 资源目录
     ├── *.js           # 临时生成的 JS 文件
-    └── node_modules/  # Node.js 依赖（局部安装时）
+    └── node_modules/  # Node.js 依赖
 ```
 
 ## 技术特点
@@ -106,7 +99,6 @@ python main.py
 ## 注意事项
 
 - 确保 Node.js 已正确安装并添加到系统 PATH
-- 局部安装 curlconverter 时，请确保 `src` 目录存在
 - 部分功能需要网络连接（如在线符号库参考）
 
 ## 许可证
